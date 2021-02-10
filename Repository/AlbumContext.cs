@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,10 +11,9 @@ namespace Repository
     public class AlbumContext : DbContext
     {
         public DbSet<Picture> Pictures;
-        public DbSet<LeagueArticle> LeagueArticles;
 
-        public NewsContext() { }
+        public AlbumContext() { }
 
-        public NewsContext(DbContextOptions<NewsContext> options) : base(options) { }
+        public AlbumContext(DbContextOptions<AlbumContext> options) : base(options) { }
     }
 }

@@ -19,5 +19,11 @@ namespace Model
         public string ImageString { get; set; }
         [DisplayName("Image Array")]
         public byte[] ImageArray { get; set; }
+        [DisplayName("Primary")]
+        public bool IsPrimary { get; set; }
+        [DisplayName("Visible")]
+        public bool IsVisible { get; set; }
+        [DisplayName("Rating")]
+        public int Rating { get; set; }
     }
 }
