@@ -10,7 +10,7 @@ namespace Repository
 {
     public class AlbumContext : DbContext
     {
-        public DbSet<Picture> Pictures;
+        public DbSet<Picture> Pictures { get; set; }
 
         public AlbumContext() { }
 
