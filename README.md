@@ -16,7 +16,7 @@ Allows user to add pictures to their profile. Allows users within the same team 
 ## Getting Started
 1. Clone this repo to your local machine:
 ```bash
-  git clone https://github.com/OutOfTheParkAtRevature/LeagueService.git
+  git clone https://github.com/OutOfTheParkAtRevature/AlbumService.git
 ```
 2. To create and connect first branch to remote repository branch:
 ```bash
