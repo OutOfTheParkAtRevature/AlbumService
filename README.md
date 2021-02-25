@@ -11,6 +11,18 @@ Allows user to add pictures to their profile. Allows users within the same team 
 * Add pictures
 * Add profile
 * Edit profile
+* Implement this feature for frontend
+
+## Getting Started
+1. Clone this repo to your local machine:
+```bash
+  git clone https://github.com/OutOfTheParkAtRevature/LeagueService.git
+```
+2. To create and connect first branch to remote repository branch:
+```bash
+  git push --set-upstream origin
+```
+3. Use IDE like Visual Studio to run application. This will bring Swagger up in the browser and allow you to test the service.
 
 ## Links
 This Repository is part of an application designed with a Microservice Architecture. The other parts of the application are listed below:
